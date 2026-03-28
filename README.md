@@ -4,6 +4,7 @@
 
 This project is a frontend-based AI-inspired Resume Screener that allows HR users to upload multiple resumes and compare them against a Job Description (JD). 
 The system ranks candidates based on skill matching and assigns a score.
+
 ---
 
 ## Features
@@ -58,3 +59,5 @@ Scoring System
 - Sample Job Description provided
 
 ## Demo
+Loom Video Link:  
+https://www.loom.com/share/1fdc106aaed14fc1a620af57731f44cb
