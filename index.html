@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume Screener</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="container">
+
+    <h1>Resume Screener</h1>
+    <p class="subtitle">Helping you find the best candidates faster</p>
+
+    <label>Upload Resumes (PDF/DOCS)</label>
+    <div class="upload-box">
+      <button onclick="triggerUpload()" class="upload-btn">Choose Files</button>
+      <div class="file-display" id="fileText">No file chosen</div>
+      <button id="deleteBtn" onclick="deleteFiles()" disabled class="delete-btn">🗑</button>
+      <input type="file" id="resumes" multiple hidden>
+    </div>
+
+    <label>Enter Job Description</label>
+    <textarea id="jd" placeholder="Paste job description here..."></textarea>
+
+    <button onclick="analyzeResumes()" class="parse-btn">Parse</button>
+
+   
+    <div id="results" class="results"></div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
